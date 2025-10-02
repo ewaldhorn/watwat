@@ -20,7 +20,7 @@ async function runTests() {
   const testCases = [
     { x: 0, y: 0, expected: 0 },
     { x: 49, y: 0, expected: 196 },
-    { x: 10, y: 2, expected: 440 },
+    { x: 10, y: 2, expected: 440 }, // ((y × 50) + x) × 4 = ((2 × 50) + 10) × 4 = (100 + 10) × 4 = 110 × 4 = 440
     { x: 1, y: 1, expected: 204 }, // (1 * 50 + 1) * 4 = 51 * 4 = 204
     { x: 2, y: 3, expected: 608 }, // (3 * 50 + 2) * 4 = 152 * 4 = 608
     { x: 5, y: 10, expected: 2020 }, // (10 * 50 + 5) * 4 = 505 * 4 = 2020

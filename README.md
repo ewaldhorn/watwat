@@ -8,7 +8,7 @@ I'm curious to learn more about wasm, wat and such things. So here we go.
 
 Check out [WABT](https://github.com/WebAssembly/wabt) for the tools required to build wasm files.
 
-## Example JS Runner
+## Example JS Test Runner
 
 Assumes a `wasm` file named `theanswer.wasm` that exports a function called `theAnswer`.
 
