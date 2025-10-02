@@ -1,6 +1,8 @@
 # WatWat
 
-Just wat, or WAT.
+Just WATting around.
+
+I'm curious to learn more about wasm, wat and such things. So here we go.
 
 ## You need wabt
 
